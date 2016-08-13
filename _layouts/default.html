@@ -32,12 +32,17 @@
         <nav>
           <h3>Latest</h3>
           {% for post in site.posts limit 1 %}
-          <p class="featured">
+          <p class="featured entry">
+            <a href="/cold-hard-facts/{{ post.url }}">{{ post.title }}</a><br/>
+            {{ post.date | date_to_string }}</p>
+          {% endfor %}
+          <h3>Older Posts</h3>
+          {% for post in site.posts offset 1 limit 4 %}
+          <p class="entry">
             <a href="/cold-hard-facts/{{ post.url }}">{{ post.title }}</a><br/>
             {{ post.date | date_to_string }}</p>
           {% endfor %}
         </nav>
-        <hr>
         <footer>
           Cold Hard Facts is maintained by <a href="https://github.com/glitchassassin">Jon Winsley</a><br>
           Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
