@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Seth Rich: Coverup or Robbery Gone Bad?'
-date: {}
+date: 2016-08-12
 published: true
 author: Jon Winsley
 ---
