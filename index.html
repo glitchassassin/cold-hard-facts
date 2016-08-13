@@ -14,9 +14,3 @@ title: Cold Hard Facts
 <p>Sound good?</p>
 
 <p>Great. Let's get started.</p>
-
-<ul class="posts">
-	{% for post in site.posts %}
-		<li><span>{{ post.date | date_to_string }}</span> » <a href="cold-hard-facts/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	{% endfor %}
-</ul>
