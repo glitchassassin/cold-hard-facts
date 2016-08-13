@@ -1,4 +1,2 @@
 name: Cold Hard Facts
 markdown: kramdown
-gems:
-  - jekyll-sitemap
