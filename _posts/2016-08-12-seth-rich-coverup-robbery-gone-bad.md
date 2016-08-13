@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Seth Rich: Coverup or Robbery Gone Bad?"
-date: 2016-08-12
+title: 'Seth Rich: Coverup or Robbery Gone Bad?'
+date: 2016-08-12T00:00:00.000Z
+published: true
+author: Jon Winsley
 ---
 
 ## The Facts ##
@@ -31,6 +33,4 @@ date: 2016-08-12
 
 Further evidence may come to light, but at present - as interesting as this is - we do not have sufficient grounds to accuse anyone in the DNC of conspiracy to commit murder.
 
-Cheers,
-
-Lord_Greywether
+Cheers!
