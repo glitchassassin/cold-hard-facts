@@ -24,17 +24,20 @@
 
         <hr>
 
-        <nav>
-          <h3>Latest</h3>
-          {% for post in site.posts limit 1 %}
-          <p class="featured"><a href="/cold-hard-facts/{{ post.url }}">{{ post.title }}</a><br/>
-{{ post.date | date_to_string }}</p>
-          {% endfor %}
-        </nav>
         <section id="main_content">
           {{ content }}
         </section>
-
+        <hr>
+        
+        <nav>
+          <h3>Latest</h3>
+          {% for post in site.posts limit 1 %}
+          <p class="featured">
+            <a href="/cold-hard-facts/{{ post.url }}">{{ post.title }}</a><br/>
+            {{ post.date | date_to_string }}</p>
+          {% endfor %}
+        </nav>
+        <hr>
         <footer>
           Cold Hard Facts is maintained by <a href="https://github.com/glitchassassin">Jon Winsley</a><br>
           Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
