@@ -27,7 +27,7 @@
         <nav>
           <h3>Latest</h3>
           {% for post in site.posts limit 1 %}
-          <p class="featured"><a href="{{ post.url }}">{{ post.title }}</a><br/>
+          <p class="featured"><a href="/cold-hard-facts/{{ post.url }}">{{ post.title }}</a><br/>
 {{ post.date | date_to_string }}</p>
           {% endfor %}
         </nav>
